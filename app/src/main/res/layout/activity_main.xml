@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is  but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quam augue, ultrices ac tempor ac, lacinia sodales quam. In quis consectetur neque. Praesent tincidunt ligula aliquet mattis ullamcorper. Nam varius purus quis metus lobortis dignissim. Mauris eget turpis neque. Morbi tempor justo ligula, id tincidunt sem feugiat at. Proin volutpat pharetra enim, sit amet accumsan tortor volutpat vehicula. Fusce cursus, nunc non aliquam sodales, urna leo malesuada nisl, et aliquam purus mi tristique quam. Duis lacinia malesuada sem, id eleifend leo tempus eu. Aliquam erat volutpat. Pellentesque volutpat elit ac justo laoreet euismod. In vitae condimentum ex. Ut in turpis quis arcu accumsan efficitur. Sed quis lobortis lorem.
+
+Vestibulum eu ex dolor. Cras vel semper odio. Nullam sit amet enim at enim bibendum consectetur vel ac leo. Quisque luctus sem risus, vitae ullamcorper odio malesuada nec. Pellentesque posuere enim erat, quis efficitur nulla mollis non. Morbi lacinia eros urna, id eleifend mauris bibendum sit amet. Etiam vel sapien dictum magna vestibulum pretium. Sed vehicula porta lectus, at tristique tortor. Maecenas ullamcorper, massa vitae volutpat convallis, erat turpis pulvinar lectus, quis sodales nunc augue sit amet nunc.
+
+Phasellus nisi turpis, vehicula nec accumsan at, vulputate sed purus. Donec placerat faucibus arcu sed congue. Aliquam porta, lorem a pharetra facilisis, mauris nisi convallis purus, non pharetra augue quam quis nulla. Maecenas ante eros, pretium eget placerat eu, tristique eu tortor. Donec fermentum sed lacus eget dictum. Mauris dolor orci, tristique sit amet accumsan quis, sagittis eu libero. Quisque sit amet rhoncus arcu, ultrices hendrerit nunc. Proin porttitor, dui a malesuada egestas, enim justo faucibus sapien, at fringilla elit mi et lacus. Mauris bibendum suscipit lacus ut fringilla. Pellentesque vulputate urna quis ligula vestibulum, et consequat eros finibus. Morbi quis diam id nulla volutpat gravida id at sem. Etiam dictum metus a lobortis ornare. Sed scelerisque orci eros.
+
+Nunc sed elit quis mauris fringilla accumsan. Etiam venenatis a purus vel maximus. Curabitur non neque ut magna volutpat pulvinar. Curabitur ac cursus orci. Proin placerat lorem eu orci vulputate faucibus. Donec ultricies congue accumsan. Duis vitae justo dapibus sapien luctus bibendum id a nunc. Donec quis elit hendrerit, maximus diam sed, tempor nibh. Aenean convallis enim eu enim sagittis egestas.
+
+Cras varius eleifend viverra. Mauris euismod ullamcorper eleifend. Mauris eu eleifend libero, eu auctor lacus. Nam eget pharetra purus. Morbi venenatis quam id eros maximus, non ultrices magna malesuada. Vivamus consequat ipsum sit amet cursus venenatis. Curabitur aliquet felis et vestibulum tristique. Sed congue magna quis velit ultrices, in auctor eros hendrerit. Duis dictum orci a felis varius, eget imperdiet nunc blandit.
+
+Quisque dictum tortor in diam ullamcorper pulvinar. Maecenas accumsan est eget leo vestibulum, at congue justo fringilla. Vivamus laoreet tortor quam, sit amet semper metus laoreet quis. Nam hendrerit dui tellus, eget ornare nulla eleifend sit amet. Suspendisse vel eros pellentesque libero consectetur fermentum. Nunc tortor nibh, lobortis sit amet gravida nec, suscipit ultrices elit. Donec condimentum, nulla at eleifend pretium, nisl ante sodales libero, vel bibendum enim dui ac mauris. Ut."></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!"></Button>
+
+</LinearLayout>
